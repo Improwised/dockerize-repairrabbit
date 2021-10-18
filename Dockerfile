@@ -1,4 +1,4 @@
-FROM deltasquare4/docker-php-base
+FROM improwised/php-base
 
 ADD ./vhost.conf /etc/nginx/conf.d/default.conf
 
