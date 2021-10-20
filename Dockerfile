@@ -1,4 +1,4 @@
-FROM improwised/php-base
+FROM improwised/php-base:7.4
 
 ADD ./vhost.conf /etc/nginx/conf.d/default.conf
 
